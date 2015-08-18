@@ -25,7 +25,7 @@ function zoom(){
 
 var map = svg.append("g").attr("class", "path")
 
-d3.json("http://localhost:8000/map/us.json", function(error, topology) {
+d3.json("us.json", function(error, topology) {
   if (error) throw error;
   map.selectAll("path")
       .data(topojson.feature(topology, topology.objects.states).features)
@@ -36,7 +36,7 @@ d3.json("http://localhost:8000/map/us.json", function(error, topology) {
 
 var information = svg.append("g").attr("class", "bubble");
 
-d3.json("http://localhost:8000/national_parks/data.json", function(error, topology) {
+d3.json("data.json", function(error, topology) {
   if (error) throw error;
   
          
