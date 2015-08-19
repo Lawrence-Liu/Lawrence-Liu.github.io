@@ -20,9 +20,9 @@ sass:
 
 # About/contact
 author:
-  name:              Mark Otto
+  name:              Lawrence Liu
   url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  email:             suo.lawrence.liu@gmail.com
 
 # Custom vars
 version:             2.0.0
