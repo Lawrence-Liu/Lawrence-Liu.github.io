@@ -1,5 +1,5 @@
 ---
-layout:post
+layout: post
 title: Thoughts on Statistics
 ---
 
@@ -13,4 +13,5 @@ Curse of Dimensionality
 
 Advantages of data visualization
 ---
-Data visualization is one of my favourite in my work flow. It provides a simple, effective and beautiful way to check our data. When we look at raw data directly, we can't get many insights from it because human brains are not sensitive to numbers, not to mention discovering patterns from tons of numbers. But we we sensitive to shapes, colors and size. In classification problem, we can easily find the distribution of each class if we assign different colors to them. So we know if these classes are linearly separatable. In regression, we can easily check the relationship between the input variables and response variable. With creativity and appropriate tools we can use data visualization to present information which is difficult (if not impossible) to present in other ways. 
+Data visualization is one of my favourite in my workflow. It provides a simple, effective and beautiful way to check our data. When we look at raw data directly, we can't get many insights from it because human brains are not sensitive to numbers, not to mention discovering patterns from tons of numbers. But we we sensitive to shapes, colors and size. In classification problem, we can easily find the distribution of each class if we assign different colors to them. So we know if these classes are linearly separatable. In regression, we can easily check the relationship between the input variables and response variable. With creativity and appropriate tools we can use data visualization to present information which is difficult (if not impossible) to present in other ways. 
+
