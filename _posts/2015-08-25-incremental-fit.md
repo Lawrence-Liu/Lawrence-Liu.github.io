@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post
 title: Incremental Fit of Gaussian Naive Bayes
 ---
 
