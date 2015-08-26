@@ -19,9 +19,6 @@ title: Incremental Fit of Gaussian Naive Bayes
     gnb.fit(X_train, y_train).predict(X_test)
     gnb.theta_
 
-
-
-
     array([[ 5.055     ,  3.4775    ,  1.4575    ,  0.245     ],
            [ 5.95714286,  2.77142857,  4.22571429,  1.31714286],
            [ 6.60810811,  2.96216216,  5.56756757,  2.02972973]])
