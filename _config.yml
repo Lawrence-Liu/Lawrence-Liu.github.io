@@ -5,8 +5,8 @@ permalink:           pretty
 relative_permalinks: true
 
 # Setup
-title:               Poole
-tagline:             The Jekyll Butler
+title:               文刀
+tagline:             逍遥派小师弟
 url:                 http://getpoole.com
 paginate:            1
 baseurl:             ""
