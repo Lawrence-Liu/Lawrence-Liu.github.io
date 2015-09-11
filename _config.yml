@@ -8,6 +8,7 @@ relative_permalinks: true
 title:               文刀
 tagline:             逍遥派小师弟
 url:                 http://getpoole.com
+description:		 'A place for statistics and related stuff' 	
 paginate:            1
 baseurl:             ""
 
