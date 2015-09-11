@@ -9,6 +9,7 @@ When I was using R to build a random forest model one year ago, I got to know pa
 Most parallel computation in business is implemented at this level. People can use as many commodity computers as they want to build a grid. This is the good stuff. But people must solve the communications between different computers. If lots of communications between computers are required, this overhead can be challenging.  
 
 #####CPU level
+
 ######More than one physical CPU
 This technology existed before multi-core CPU and hyper-threading. We need the same number of CPU sockets on the motherboard  as the number of CPU so we can place all CPUs on the motherboard. Whiled enhanced computation power, this technology has many drawbacks. 
 
