@@ -13,3 +13,8 @@ After we registered an application on Twitter, we get a consumer key and consume
 
 {% gist 54184dc00b0e148638a8 %}
 
+We can use`auth.access_token` and `auth.access_secret` to check our access credentials.To use access credentials next time, we can store them in a text file with consumer credentials together.
+
+Now we can post on behalf of the twitter bot. Next I will show how to write the code for this twitter bot.
+
+ 
