@@ -1,7 +1,6 @@
 ---
+layout:post
 title: The OAuth API of Twitter
-
-layout:posts
 ---
 
 Recently I am trying to do something interesting with Twitter. The first goal is to deploy an application on Heroku. So I did some research to the OAuth API of twitter and tried very hard to find some examples. But most examples are too simple, they just use the client itself as resource owner. I want to create a twitter bot account who can upload a line of bible everyday instead of posting those lines by my own account, although I rarely post anything.
