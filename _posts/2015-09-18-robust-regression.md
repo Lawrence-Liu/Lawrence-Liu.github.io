@@ -4,13 +4,12 @@ layout: post
 ---
 Outlier is such a pain in data analysis, because we can't just delete as it might be a legitimate  'outlier'. However, if we keep it, it might distort the underlying truth potentially especially when we make a typo. 
 
-```
-require(MASS)
-x1 <- seq(0, 10, 0.2)
-nobs <- length(x1)
-y <- x1 * 2 + rnorm(nobs, 0, 0.4)
-y[c(5, 50)] <- c(150,30)
-```
+	require(MASS)
+	x1 <- seq(0, 10, 0.2)
+	nobs <- length(x1)
+	y <- x1 * 2 + rnorm(nobs, 0, 0.4)
+	y[c(5, 50)] <- c(150,30)
+
 
 Build models and plot regression lines
 
