@@ -13,22 +13,21 @@ Outlier is such a pain in data analysis, because we can't just delete as it migh
 
 Build models and plot regression lines
 
-```
-#build regression model
-fit.lm <- lm(y ~ x1)
-plot(x1, y)
-lines(x1, fit.lm$fitted.values, col = 'blue')
-#build robust regression model
-fit.rlm <- rlm(y ~ x1)
-lines(x1, fit.rlm$fitted.values, col = 'red')
-```
+	#build regression model
+	fit.lm <- lm(y ~ x1)
+	plot(x1, y)
+	lines(x1, fit.lm$fitted.values, col = 'blue')
+	#build robust regression model
+	fit.rlm <- rlm(y ~ x1)
+	lines(x1, fit.rlm$fitted.values, col = 'red')
+
 
 It seems that our linear model is influenced by outliers severely, but robust linear model ignored the outliers. Let's see how magic happens.
 
 
-```
-fit.rlm$w
-```
+
+	fit.rlm$w
+
 
 From the weights table above, we can see that the weights of y[5] and y[50] are adjusted to 0.003 and 0.051. This is rlm's way to deal with outliers: it decreases their weights. 
 
