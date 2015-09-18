@@ -43,4 +43,4 @@ The estimator is called M-estimator.
 
 
 
-
+<script src="{{ site.baseurl }}/public/katex_render.js"></script>
