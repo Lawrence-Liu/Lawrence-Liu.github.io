@@ -4,6 +4,11 @@
 permalink:           pretty
 relative_permalinks: true
 
+#set up markdown for LaTex
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
+
 # Setup
 title:               文刀
 tagline:             逍遥派小师弟
