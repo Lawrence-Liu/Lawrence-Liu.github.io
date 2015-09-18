@@ -4,7 +4,7 @@ layout: post
 ---
 Outlier is such a pain in data analysis, because we can't just delete as it might be a legitimate  'outlier'. However, if we keep it, it might distort the underlying truth potentially especially when we make a typo. 
 
-```{r}
+```
 require(MASS)
 x1 <- seq(0, 10, 0.2)
 nobs <- length(x1)
@@ -14,7 +14,7 @@ y[c(5, 50)] <- c(150,30)
 
 Build models and plot regression lines
 
-```{r}
+```
 #build regression model
 fit.lm <- lm(y ~ x1)
 plot(x1, y)
@@ -27,7 +27,7 @@ lines(x1, fit.rlm$fitted.values, col = 'red')
 It seems that our linear model is influenced by outliers severely, but robust linear model ignored the outliers. Let's see how magic happens.
 
 
-```{r}
+```
 fit.rlm$w
 ```
 
