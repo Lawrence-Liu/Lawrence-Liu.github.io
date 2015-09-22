@@ -1,6 +1,7 @@
 ---
 title: robust regression
 layout: post
+published: false
 ---
 Outlier is such a pain in data analysis, because we can't just delete as it might be a legitimate  'outlier'. However, if we keep it, it might distort the underlying truth potentially especially when we make a typo. 
 
@@ -33,12 +34,11 @@ From the weights table above, we can see that the weights of y[5] and y[50] are 
 
 The estimator is called M-estimator. 
 
->M-estimators are a maximum likelihood type estimator. M estimation involves minimizing $\sum_1^n \rho(r_i)$, where >$\rho$ is some function with the following properties:
+>M-estimators are a maximum likelihood type estimator. M estimation involves minimizing $$ \sum_1^n \rho(r_i) $$, where $$\rho$$ is some function with the following properties:
 
->1. $\rho(r) \geq 0$ for all r and has a minimum at 0
->2. $\rho(r) = \rho(-r)$
->3. $\rho(r)$ increases as r increases from 0, but doesn't get too large as r increases.
-
+>1. $$ \rho(r) \geq 0 $$ for all $$r$$ and has a minimum at 0
+>2. $$ \rho(r) = \rho(-r) $$
+>3. $$\rho(r)$$ increases as $$r$$ increases from 0, but doesn't get too large as $$r$$ increases.
 
 
 <script src="{{ site.baseurl }}/public/katex_render.js"></script>
